@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jey Aakash S — Information Technology student portfolio." />
+  <title>Jey Aakash S | Portfolio</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#121a30;--text:#edf2ff;--muted:#a8b4d0;--accent:#72e0d1;--accent2:#9b8cff;--line:rgba(255,255,255,.11)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 80% 0%,#202650 0,transparent 34%),var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.brand{font-weight:800;letter-spacing:.4px}.brand span{color:var(--accent)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:var(--accent)}
+    .hero{min-height:72vh;display:grid;grid-template-columns:1.4fr .8fr;gap:42px;align-items:center;padding:55px 0 75px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}.hero h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.05;letter-spacing:-2px;margin:14px 0}.hero h1 span{color:var(--accent)}.hero p{max-width:610px;color:var(--muted);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;padding:11px 17px;border:1px solid var(--line);border-radius:12px;font-weight:700}.btn.primary{background:var(--accent);color:#07131b;border-color:transparent}.btn:hover{transform:translateY(-2px)}.orb-card{padding:28px;border:1px solid var(--line);border-radius:26px;background:linear-gradient(145deg,rgba(114,224,209,.12),rgba(155,140,255,.09));box-shadow:0 25px 80px rgba(0,0,0,.2)}.orb{width:150px;height:150px;margin:0 auto 22px;border-radius:50%;display:grid;place-items:center;font-size:3rem;font-weight:900;color:#081421;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 0 65px rgba(114,224,209,.18)}.orb-card h3{text-align:center;margin:0}.orb-card p{text-align:center;color:var(--muted);margin:5px 0 0}
+    section{padding:40px 0 55px}.section-head{margin-bottom:22px}.section-head small{color:var(--accent);text-transform:uppercase;letter-spacing:2px;font-weight:700}.section-head h2{font-size:2rem;margin:5px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:rgba(18,26,48,.8);border:1px solid var(--line);border-radius:18px;padding:22px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}.tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.tag{font-size:.9rem;padding:7px 11px;border-radius:999px;background:rgba(114,224,209,.09);border:1px solid rgba(114,224,209,.2);color:#c9fff5}.project-note{font-size:.88rem;color:var(--muted);margin-top:10px}.contact{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.contact p{color:var(--muted);margin:0}.footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:35px;min-height:auto}.orb-card{max-width:380px}.navlinks{gap:12px;font-size:.84rem}.grid{grid-template-columns:1fr}.hero h1{letter-spacing:-1px}.nav{align-items:flex-start;gap:15px;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#home">JA<span>.</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main>
+    <section class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow">Information Technology Student</div>
+        <h1>Hi, I'm <span>Jey Aakash S</span></h1>
+        <p>I'm an Information Technology student building my programming skills and exploring software development. Welcome to my portfolio, where I share my skills, learning journey, and projects.</p>
+        <div class="actions"><a class="btn primary" href="#projects">Explore Projects</a><a class="btn" href="https://github.com/ajai51334-max" target="_blank" rel="noopener noreferrer">Visit GitHub ↗</a></div>
+      </div>
+      <aside class="orb-card"><div class="orb">JA</div><h3>Learn · Build · Improve</h3><p>Curious mind. Growing developer.</p></aside>
+    </section>
+    <section class="wrap" id="about">
+      <div class="section-head"><small>About Me</small><h2>A little about me</h2><p>Focused on learning technology and turning ideas into practical projects.</p></div>
+      <div class="card"><h3>Education</h3><p><strong>B.Tech — Information Technology</strong><br>VSB College of Engineering and Technical Campus<br>2025 – Present</p></div>
+    </section>
+    <section class="wrap" id="skills">
+      <div class="section-head"><small>What I Know</small><h2>Technical Skills</h2><p>Skills listed for my learning and development journey.</p></div>
+      <div class="card"><div class="tags"><span class="tag">C</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Python</span></div></div>
+    </section>
+    <section class="wrap" id="projects">
+      <div class="section-head"><small>My Work</small><h2>Projects & Practice</h2><p>A growing collection of learning and project work.</p></div>
+      <div class="grid">
+        <article class="card"><h3>Student Management System</h3><p>A project concept for organizing student records and basic academic information.</p><div class="project-note">Add your implementation details and repository link when the project is ready.</div></article>
+        <article class="card"><h3>Programming Practice</h3><p>Practising programming fundamentals, problem-solving, and core concepts using C, C++, Java, and Python.</p></article>
+      </div>
+    </section>
+    <section class="wrap" id="experience">
+      <div class="section-head"><small>Learning & Experience</small><h2>Internship</h2></div>
+      <div class="card"><h3>Cloud Computing Internship — CodeAlpha</h3><p>Include this entry if it matches the internship you completed or are currently undertaking. Update the dates and tasks with your actual experience.</p></div>
+    </section>
+    <section class="wrap" id="contact">
+      <div class="card contact"><div><div class="section-head" style="margin-bottom:8px"><small>Get in Touch</small><h2>Let's connect</h2></div><p>Explore my work and connect with me on GitHub.</p></div><a class="btn primary" href="https://github.com/ajai51334-max" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>© <span id="year"></span> Jey Aakash S</span><span>Designed with care · Portfolio</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
